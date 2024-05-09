@@ -81,10 +81,36 @@ button:active{
 		max-width: 100%;
 	}
 	.buttons {
-		grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 	}
 	button {
-		font-size: 20px;
+        height: 70px;
+        width: 70px;
+	}
+}
+@media screen and (max-width: 393px) {
+	.calculator {
+		max-width: 100%;
+	}
+	.buttons {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	button {
+        height: 70px;
+        width: 70px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.calculator {
+		max-width: 100%;
+	}
+	.buttons {
+		grid-template-columns: repeat(4, 1fr);
+	}
+	button {
+		font-size: 40px;
+        height: 60px;
+        width: 60px;
 	}
 }
 
